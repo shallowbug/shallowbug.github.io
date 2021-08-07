@@ -61,15 +61,14 @@ header h1{
 	width: 80%;
 	margin: 0 auto;
 	margin-top: 6%;
-	font-size: 2rem;
+	font-size: 2.5rem;
 }
 
 /* SITE CONTENT */
 .secTitle{
 	color: #fff;
-	font-size: 2.5rem;
+	font-size: 2rem;
 	margin-bottom: 2%;
-	margin-top: -9%;
 }
 section{
 	display: flex;
@@ -147,7 +146,16 @@ footer{
 
 @media only screen and (max-width: 600px){
 	h1{
-		font-size: 4rem;
+		font-size: 4.5rem;
+	}
+	h2{
+		max-width: 370px;
+	}
+	figure{
+		width: 95%;
+	}
+	section{
+		justify-content: center;
 	}
 }
 
