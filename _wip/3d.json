@@ -1,0 +1,14 @@
+{ 
+"threeD": {
+		"threeDlist": [{
+			"project": {
+				"title": "Digital Gallery Assets",
+				"shortDesc": "Created 3D models for an international art gallery for the digital space during the pandemic.",
+				"tech": "Blender",
+				"role": "3D modeling",
+				"img": "tele.jpg"
+			},
+			"pin": 1
+		}]
+	}
+}
