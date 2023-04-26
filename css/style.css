@@ -2,16 +2,16 @@
 *{
 	margin: 0;
 	padding: 0;
-	color: #fff;
 	box-sizing: border-box;
 }
 html{
 	scroll-behavior: smooth;
 }
 body{
-	background-color: #4e6e7d;
+	background-color: #465e69;
 	font-size: 1.5rem;
 	font-family: 'Open Sans', sans-serif;
+	color: #fff;
 }
 h1{
 	font-family: 'Open Sans', sans-serif;
@@ -48,7 +48,7 @@ a:hover{
 	text-decoration: none;
 }
 section{
-	margin-bottom: 3rem;
+	padding-bottom: 3rem;
 }
 section h2{
 	color: #fff;
@@ -82,8 +82,9 @@ header{
 	min-height: 100vh;
 	margin: 0 auto;
 	padding: 0;
+	padding-top: 7%;
+
 }
-header h1{margin-top: 7%;}
 .splashBg{
 	max-width: 100%;
 	width: 100vw;
@@ -93,6 +94,7 @@ header h1{margin-top: 7%;}
 	margin: 0;
 	padding: 0;
 	z-index: -999;
+	background-color: #4e6e7d;
 }
 .splashBg svg{
 	width: 100%;
@@ -109,15 +111,42 @@ header p{
 	font-size: 2rem;
 	font-family: 'Raleway', sans-serif;
 }
-.moreButton, .lessButton{
+#head{
+	display: none;
+}
+#head.sticky{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	background-color:rgba(0,0,0,0.3);
+	padding: 0.5rem 3rem;
+	z-index: 999;
+}
+#head.sticky h1{
+	font-size: 3rem;
 	cursor: pointer;
-	text-decoration: underline;
 }
-.moreButton:hover, .lessButton:hover{
-	text-decoration: none;
+#head.sticky nav{
+	font-size: 2rem;
 }
-
-/* --------- web styles ---------- */
+#head.sticky h1, #head.sticky nav{
+	margin: 0;
+	padding: 0;
+}
+/* --------- Content styles ---------- */
+.content .secHeader{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	padding-top: 0.5rem;
+}
+.content .secHeader h2{
+	position: relative;
+}
 .workList{
 	display: flex;
 	flex-flow: row wrap;
@@ -189,8 +218,31 @@ header p{
 	width:65%;
 	text-align: center;
 }
+.moreButton, .lessButton{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.moreButton:hover, .lessButton:hover{
+	text-decoration: none;
+}
 
+/* --------- web styles ---------- */
+#web{
+	background-color: #4e6e7d;
+}
 /* --------- media styles ---------- */
+#visual{
+	background-color: #465e69;
+}
+#visual .divider{
+	width: 100%;
+	height: 50px;
+	background-image: url("../img/bg.svg");
+	background-color: #4e6e7d;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 /* --------- projects styles ---------- */
 
@@ -200,6 +252,11 @@ footer{
 	text-align: center;
 	font-size: 1rem;
 	padding: .5rem;
+	background-image: url("../img/footerbg.jpg");
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-top: 1rem;
+
 }
 footer span{
 	display: block;
@@ -216,6 +273,24 @@ footer a{
 }
 @media only screen and (max-width: 890px){
 	.workList li{width: 45%;}
+	section{
+		padding-top: 4rem	
+	}
+	#visual{
+		padding-top: 0;
+	}
+	#vis{
+		padding-top: 1rem;
+	}
+	#head.sticky{
+		padding: 0.1rem 1.5rem;
+	}
+	#head.sticky h1{
+		font-size: 2.5rem;
+	}
+	#head.sticky nav{
+		font-size: 1.5rem;
+	}
 }
 @media only screen and (max-width: 600px){
 	header{

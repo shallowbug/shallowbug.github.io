@@ -32,6 +32,14 @@
 
 </head>
 <body>
+  <div id="head">
+      <h1 class="animate__animated animate__fadeInDown" onclick="topFunction()">O.</h1>
+      <nav class="animate__animated animate__fadeInDown">
+        <a href="#web">Web</a> //
+        <a href="#visual">Visual</a>
+      </nav>
+  </div>
+
   <div class="splashBg">
     <svg id="intro-svg" width="100vw" height="100vh" version="1.1" viewBox="0 0 264.58 198.44" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path class="rellax" data-rellax-speed="-.5" d="m-0.0033333 88.591c21.459-12.511 48.823 0.61025 71.856-6.6819 8.8302-2.7956 14.145-11.209 22.859-13.898 6.9339-2.1403 17.719 2.4785 23.898-1.3364 9.4751-5.8495 12.545-21.779 22.599-25.658 19.265-7.4332 40.766-3.0026 60.265-8.0183 4.1982-1.0799 6.4646-6.2263 10.131-7.4837 6.3064-2.1629 14.574-0.65309 21.041-1.6037 2.1669-0.31852 26.648-16.017 31.951-18.442l-0.26756 192.44-264.86 0.80181z" style="fill: rgb(53, 61, 64); stroke-width: 0px; transform: translate3d(0px, 0px, 0px);"></path>
@@ -44,11 +52,13 @@
   </div>
 
   <header>
-    <h1 class="animate__animated animate__fadeInDown">OSVALDO.</h1>
-    <nav class="animate__animated animate__fadeInDown">
-      <a href="#web">Web</a> //
-      <a href="#visual">Visual</a>
-    </nav>
+    <div>
+      <h1 class="animate__animated animate__fadeInDown">O<span>SVALDO</span>.</h1>
+      <nav class="animate__animated animate__fadeInDown">
+        <a href="#web">Web</a> //
+        <a href="#visual">Visual</a>
+      </nav>
+    </div>
     <p class="animate__animated animate__fadeIn">
       A Los Angeles based web developer, digital artist, and technology generalist with over 7 years of experience.<br />I work with design, development, and marketing teams to deliver functional services and experiences.
     </p>
@@ -65,8 +75,9 @@
   </section>
 
   <section class="content" id="visual">
+    <div class="divider"></div>
     <div id="vWork">
-      <div class="secHeader">
+      <div id="vis" class="secHeader">
         <h2>Visual</h2>
       </div>
      <ul class="workList" id="vWorkList">

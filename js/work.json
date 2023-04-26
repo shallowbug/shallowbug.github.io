@@ -5,7 +5,7 @@
 			{"project": {
 				"title": "BMP",
 				"shortDesc": "",
-				"tech": "Kirby",
+				"tech": "Kirby, PHP",
 				"cat": "Informational",
 				"role": "Front end developer",
 				"img": "bmp.gif"
@@ -15,7 +15,7 @@
 			{"project": {
 				"title": "US EPA",
 				"shortDesc": "",
-				"tech": "Kirby",
+				"tech": "Kirby, PHP",
 				"cat": "Informational",
 				"role": "Front end developer",
 				"img": "epa.jpg"
@@ -25,7 +25,7 @@
 			{"project": {
 				"title": "JPERA",
 				"shortDesc": "",
-				"tech": "Wordpress",
+				"tech": "Wordpress, Tailwind, Laravel",
 				"cat": "eCommerce",
 				"role": "Front end developer",
 				"img": "jpera.jpg"
@@ -35,7 +35,7 @@
 			{"project": {
 				"title": "1646.ca",
 				"shortDesc": "",
-				"tech": "VUE.js",
+				"tech": "VUEjs",
 				"cat": "Portfolio",
 				"role": "Front end developer",
 				"img": "1646ca.jpg"
@@ -45,7 +45,7 @@
 			{"project": {
 				"title": "Beans AI",
 				"shortDesc": "",
-				"tech": "LAMP",
+				"tech": "LAMP, PHP, Javascript",
 				"cat": "Informational",
 				"role": "Front end developer",
 				"img": "beans.jpg"
@@ -55,7 +55,7 @@
 			{"project": {
 				"title": "Honest History Magazine",
 				"shortDesc": "",
-				"tech": "Wordpress",
+				"tech": "Wordpress, Tailwind, Laravel",
 				"cat": "eCommerce",
 				"role": "Full stack developer",
 				"img": "honest.jpg"
@@ -65,7 +65,7 @@
 			{"project": {
 				"title": "Donna Bella Cosmetics",
 				"shortDesc": "",
-				"tech": "Shopify",
+				"tech": "Shopify, React",
 				"cat": "eCommerce",
 				"role": "Front end developer",
 				"img": "donna.jpg"
@@ -75,7 +75,7 @@
 			{"project": {
 				"title": "LAD Design",
 				"shortDesc": "",
-				"tech": "Squarespace",
+				"tech": "Squarespace, Javascript",
 				"cat": "Portfolio",
 				"role": "Front end developer",
 				"img": "lad.jpg"
@@ -85,7 +85,7 @@
 			{"project": {
 				"title": "1646 Ideation Studio",
 				"shortDesc": "",
-				"tech": "Squarespace",
+				"tech": "Squarespace, Javascript",
 				"cat": "Portfolio",
 				"role": "Full stack developer",
 				"img": "1646.jpg"
@@ -95,7 +95,7 @@
 			{"project": {
 				"title": "Raindrip",
 				"shortDesc": "",
-				"tech": "Joomla",
+				"tech": "Joomla, Javascript",
 				"cat": "Informational",
 				"role": "",
 				"img": "rain.jpg"
@@ -105,7 +105,7 @@
 			{"project": {
 				"title": "NDS Inc.",
 				"shortDesc": "An online store for a popular local bike shop in order to create orders and send to the manufacturer directly.",
-				"tech": "SmartEtailing",
+				"tech": "Magento, Javascript",
 				"cat": "Instructional",
 				"role": "Full stack developer, Prototyper",
 				"img": "ndspro.jpg"
@@ -125,7 +125,7 @@
 			{"project": {
 				"title": "Telescopes.net",
 				"shortDesc": "A magento based web store for a regional telescope store.",
-				"tech": "Magento",
+				"tech": "Magento, Javascript",
 				"cat": "eCommerce",
 				"role": "Front end Developer",
 				"img": "tele.jpg"
@@ -135,7 +135,7 @@
 			{"project": {
 				"title": "Woodland Hills Camera",
 				"shortDesc": "A magento based web store for a regional camera store.",
-				"tech": "Magento",
+				"tech": "Magento, Javascript",
 				"cat": "eCommerce",
 				"role": "Front end developer",
 				"img": "whcam.jpg"
