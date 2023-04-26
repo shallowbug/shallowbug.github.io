@@ -1,0 +1,35 @@
+{ 
+"visual": {
+		"visualList": [
+
+			{"project": {
+				"title": "Drank water simulation",
+				"shortDesc": "3D physics simulation animation short for a beauty brand's marketing.",
+				"tech": "Blender 3D",
+				"role": "3D modeling",
+				"img": "drank.jpg"
+			},
+
+			"pin": 1},
+
+			{"project": {
+				"title": "Digital Gallery Assets",
+				"shortDesc": "Various 3D models of TVs for an international virtual art gallery during the pandemic.",
+				"tech": "Blender 3D",
+				"role": "3D modeling",
+				"img": "tv.jpg"
+			},
+
+			"pin": 1},
+
+			{"project": {
+				"title": "Bicycle day bump",
+				"shortDesc": "A simple lo-fi animatined promotional bumper.",
+				"tech": "Blender 3D",
+				"role": "3D Animation",
+				"img": "bike.jpg"
+			},
+			"pin": 0}
+
+	]}
+}

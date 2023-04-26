@@ -17,10 +17,18 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
    <script src="/js/work.js"></script>
+   <script src="/js/visual.js"></script>
+   <script src="/js/helper.js"></script>
+
    <link rel="stylesheet" type="text/css" href="/css/style.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Raleway:wght@300&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/0b5850e852.js" crossorigin="anonymous"></script>
 
    <title>Osvaldo Pulido</title>
+   <link rel="icon" type="image/x-icon" href="/img/icons/os.png">
 
 </head>
 <body>
@@ -38,26 +46,39 @@
   <header>
     <h1 class="animate__animated animate__fadeInDown">OSVALDO.</h1>
     <nav class="animate__animated animate__fadeInDown">
-      <a href="#web">Web developer</a>
+      <a href="#web">Web</a> //
+      <a href="#visual">Visual</a>
     </nav>
     <p class="animate__animated animate__fadeIn">
       A Los Angeles based web developer, digital artist, and technology generalist with over 7 years of experience.<br />I work with design, development, and marketing teams to deliver functional services and experiences.
     </p>
   </header>
 
-  <section id="web">
+  <section class="content" id="web">
     <div id="work">
-     <ul id="workList">
+      <div class="secHeader">
+        <h2>Web Development</h2>
+      </div>
+     <ul class="workList" id="workList">
+     </ul>
+    </div>
+  </section>
+
+  <section class="content" id="visual">
+    <div id="vWork">
+      <div class="secHeader">
+        <h2>Visual</h2>
+      </div>
+     <ul class="workList" id="vWorkList">
      </ul>
     </div>
   </section>
 
   <footer>
     <span class="contact">
-      Contact: <a href="https://www.linkedin.com/in/osvaldo-pulido-33815a142/">Linkedin</a> | 
-      <a href="mailto:osvaldo.pulido.t@gmail.com">Email</a>
+      Contact: <a href="https://www.linkedin.com/in/osvaldo-pulido-33815a142/">Linkedin</a>
     </span>
-    <span>&copy; 2022 OSVALDO.</span>
+    <span>&copy; 2023 OSVALDO.</span>
   </footer>
 
 </body>

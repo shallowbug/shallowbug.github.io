@@ -24,11 +24,13 @@ class Work {
 
 /* Display stuff from the work */
 class Display {
-    displayBasket(work, listPlace) {
+    displayBasket(work, listPlace, moreWork) {
         let result = ""
+        let i=0;
         work.forEach((item)=>{
+            i++
         result += `
-        <li class="card pin${item.pin}">
+        <li class="card pin${item.pin} ${i>6 ? 'hide hidden' : ''} ${i>3 ? 'mHidden' : ''}" >
 
             <div class="title">${item.title}</div>
 
@@ -39,7 +41,7 @@ class Display {
                 <div class="data">${item.cat}</div>
             </div>
 
-            <div class="meta tech">
+            <div class="meta tech no-border">
                 <div class="dataTitle">Technology:</div>
                 <div class="data">${item.tech}</div>
             </div>
@@ -49,6 +51,13 @@ class Display {
             <div class="hidden">${item.shortDesc}</div>
         </li>
         `})
+        const moreButton = document.createElement("div");
+        moreButton.classList.add("moreBreak");
+        moreButton.innerHTML = `
+                <span class="moreButton" onclick="moreShow('#work')">Load more <small>(${i-6})</small> <i class="fa-solid fa-arrow-down fa-xs"></i></span>
+                <span class="lessButton hidden" onclick="lessShow('#work')">Load less <i class="fa-solid fa-arrow-up fa-xs"></i></span>`;
+
+        moreWork.appendChild(moreButton);
         listPlace.innerHTML = result;
     }
 }
@@ -57,6 +66,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     const work  = new Work()
     const display = new Display()
     const listPlace = document.getElementById("workList")
+    const moreWork = document.getElementById("work")
 
-    work.workItems().then(work => display.displayBasket(work, listPlace))
+    work.workItems().then(work => display.displayBasket(work, listPlace, moreWork))
 })
