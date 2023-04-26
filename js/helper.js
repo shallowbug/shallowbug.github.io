@@ -20,6 +20,8 @@ function moreShow(sec) {
 
   Array.from(document.querySelectorAll(sec + ' .hide')).forEach(function(el) {
     el.classList.remove("hidden");
+    el.classList.add("animate__animated");
+    el.classList.add("animate__fadeInDown");
   });
 }
 
