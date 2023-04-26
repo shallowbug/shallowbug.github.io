@@ -34,7 +34,7 @@ class Display {
 
             <div class="title">${item.title}</div>
 
-            <img src="/img/work/${item.img}" />
+            <div class="cardImg"><img src="/img/work/${item.img}" /></div>
 
             <div class="meta cat">
                 <div class="dataTitle">Category:</div>

@@ -161,6 +161,14 @@ header p{
 	padding: 0.75rem;
 	
 }
+.cardImg{
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+	background-image: url("../img/icons/place.gif");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
 .card img{
 	width: 100%;
 	height: auto;
@@ -206,7 +214,9 @@ footer .contact{
 footer a{
 	color: #fff;
 }
-
+@media only screen and (max-width: 890px){
+	.workList li{width: 45%;}
+}
 @media only screen and (max-width: 600px){
 	header{
 		display: flex;
@@ -227,6 +237,6 @@ footer a{
 		margin-top: 0;
 		font-size: 1.65rem;
 	}
-	#workList li{width: 95%;}
-	#workList{justify-content: center;}
+	.workList li{width: 95%;}
+	.workList{justify-content: center;}
 }
